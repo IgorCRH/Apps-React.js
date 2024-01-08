@@ -1,0 +1,83 @@
+/* App.css */
+
+body {
+  background: linear-gradient(to bottom, #52020e, #ba0621);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #ba0621;
+  background: linear-gradient(to bottom, #d11406, #52020e);
+}
+
+h1{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.calculator-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calculator-input input {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.input-buttons {
+  display: flex;
+}
+
+.input-buttons button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #852635;
+  color: white;
+  border: solid #ffffff;
+  border-radius: 30px;
+}
+
+.input-buttons button:hover {
+  transition:ease-in 0.5s;
+  background-color: white;
+  color: #852635;
+}
+
+.ajudatoggle, .ajudatrig {
+  color: white;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.calculator-buttons button {
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #52020e;
+  color: white;
+  border: solid #ffffff;
+  border-radius: 30px;
+}
+
+.calculator-buttons button:hover {
+  transition:ease-in 0.5s;
+  background-color: white;
+  color: #52020e;
+}
