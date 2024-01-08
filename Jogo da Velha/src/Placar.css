@@ -1,0 +1,10 @@
+/* Seu código existente */
+
+.placar {
+    display: inline-block;
+    background-color: #05206b;
+    color: white;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 10px;
+}

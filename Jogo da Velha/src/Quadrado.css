@@ -1,0 +1,16 @@
+.quadrado {
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0px 0px 8px #fff;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0.5rem;
+    border-radius: 20%;
+}
+
+.quadrado:hover {
+    box-shadow: 0px 0px 8px #888;
+}
